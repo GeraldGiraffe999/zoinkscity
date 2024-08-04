@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Order - zoinksCity</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="order_stylesheet.css">
+</head>
+<body>
+	<center>
+		<div class="heading">
+			Confirm Purchase <i class="fas fa-purchase"></i>
+		</div>
+	</center>
+
+	<div class="inputs">
+
+	<label for="ccnumber" class="valuelabel">Credit Card Number:</label>
+	<input type="number" class="ccnumber" maxlength=16 name="ccnumber" id="ccnumber" placeholder="5268 7029 6426 2254" required>
+	<br>
+	<label for="cvvnumber" class="valuelabel">CCV/CVV:</label>
+	<input type="number" class="cvvnumber" maxlength=3 name="cvvnumber" id="cvvnumber" placeholder="286" required>
+	<br>
+	<label for="expdate" class="valuelabel">Expiration Date:</label>
+	<input type="month" class="expdate" name="expdate" id="expdate" required>
+	<br>
+	<label for="name" class="valuelabel">Name:</label>
+	<input type="text" class="name" name="name" id="name" placeholder="Samuel Simmons-Holmes" required>
+	<br>
+	<label for="adddress" class="valuelabel">Address:</label>
+	<input type="text" class="address" name="address" id="address" placeholder="24 Greenway S, Forest Hills, NY 11375 at age 12" required>
+
+	</div>
+
+	<a class="submitbutton" href="thanks.html">SUBMIT</a>
+</body>
+</html>

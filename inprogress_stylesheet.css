@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Comic Sans MS;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background: rgb(36,23,0);
+	background: linear-gradient(90deg, rgba(36,23,0,1) 0%, rgba(121,84,9,1) 35%, rgba(255,170,0,1) 100%);
+}
+.thxheading{
+	top: 240px;
+	color: #ffaa00;
+	font-size: 90px;
+	font-family: fantasy;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+.homebutton{
+	position: absolute;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #ffaa00;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #ffaa00;
+}
+.homebutton:hover{
+	background: #ffaa00;
+	color: #fff;
+}
